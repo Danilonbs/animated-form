@@ -1,12 +1,17 @@
 import './App.scss'
+import Logo from './components/logo'
 
 function App() {
   return (
     <main>
-      <header>
-        <div>
-          <img src="" alt="" srcset="" />
-        </div>
+      <header className='header-container'>
+        <Logo />
+        <nav className="menu-options">
+          <a href="">What we offer</a>
+          <a href="">How it works</a>
+          <a href="">Portifolio</a>
+        </nav>
+        <button>Contact us</button>
       </header>
     </main>
   )
