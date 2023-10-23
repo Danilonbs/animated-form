@@ -3,7 +3,11 @@ import './App.scss'
 function App() {
   return (
     <main>
-      <h1>my app</h1>
+      <header>
+        <div>
+          <img src="" alt="" srcset="" />
+        </div>
+      </header>
     </main>
   )
 }
