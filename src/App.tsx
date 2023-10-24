@@ -1,4 +1,5 @@
 import './App.scss'
+import { Arrow } from './components/Arrow'
 import Logo from './components/logo'
 
 function App() {
@@ -11,7 +12,17 @@ function App() {
           <a href="">How it works</a>
           <a href="">Portifolio</a>
         </nav>
-        <button>Contact us</button>
+        <button>
+          <div className="btn-face-white">
+          Contact us
+          <Arrow />
+          </div>
+          <div className="btn-face-purple">
+          Contact us
+          <Arrow />
+          </div>
+          
+        </button>
       </header>
     </main>
   )
