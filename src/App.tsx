@@ -24,6 +24,23 @@ function App() {
           
         </button>
       </header>
+      <div className="content-container">
+          <h1>
+          Lets grow your your social presence
+          </h1>
+          <div className="bubble target">
+            🎯
+          </div>
+          <div className="bubble shop">
+            🛍️
+          </div>
+          <div className="bubble rocket">
+            🚀
+          </div>
+          <div className="bubble fire">
+            🔥
+          </div>
+      </div>
     </main>
   )
 }

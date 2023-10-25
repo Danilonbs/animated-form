@@ -43,6 +43,8 @@ main {
   align-items: center;
   flex-direction: column;
 
+  background-color: #1a0924;
+
   .header-container {
     display: flex;
     align-items: center;
@@ -85,7 +87,7 @@ main {
         align-items: center;
         gap: 8px;
         cursor: pointer;
-        padding: 16px 24px;
+        padding: 10px 18px;
         border-radius: 24px;
         border: none;
       }
@@ -113,6 +115,39 @@ main {
         display: flex;
         animation: disappear 400ms ease-in-out forwards;
       }
+    }
+  }
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+
+  .bubble {
+    background: hsla(0, 0%, 100%, 0.1);
+    padding: 12px 14px;
+    border-radius: 50%;
+    position: absolute;
+
+    &.fire {
+      right: 20px;
+      transform: rotate(-20deg);
+      bottom: 30%;
+      font-size: 24px;
+    }
+    &.rocket {
+      top: 20%;
+      right: 100px;
+      font-size: 42px;
+    }
+    &.target {
+
     }
   }
 }
